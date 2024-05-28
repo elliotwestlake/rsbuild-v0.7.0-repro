@@ -1,0 +1,23 @@
+{
+  "name": "v0.7.0-test",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "rsbuild dev --open",
+    "build": "rsbuild build",
+    "preview": "rsbuild preview"
+  },
+  "dependencies": {
+    "@vanilla-extract/webpack-plugin": "^2.3.9",
+    "braid-design-system": "^32.18.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@rsbuild/core": "^0.7.1",
+    "@rsbuild/plugin-react": "^0.7.1",
+    "@types/react": "^18.3.2",
+    "@types/react-dom": "^18.3.0",
+    "typescript": "^5.4.2"
+  }
+}
